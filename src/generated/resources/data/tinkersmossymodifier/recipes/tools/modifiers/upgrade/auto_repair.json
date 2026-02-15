@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "tinkersmossymodifier:ball_of_moss"
+    }
+  ],
+  "level": {
+    "max": 3
+  },
+  "result": "tinkersmossymodifier:auto_repair",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/durability"
+  }
+}
