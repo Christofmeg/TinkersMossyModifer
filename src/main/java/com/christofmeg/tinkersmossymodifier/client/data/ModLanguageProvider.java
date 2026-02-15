@@ -16,7 +16,7 @@ public class ModLanguageProvider extends LanguageProvider {
     @Override
     protected void addTranslations() {
         add("modifier.tinkersmossymodifier.auto_repair", "Auto Repair");
-        add("modifier.tinkersmossymodifier.auto_repair.flavour", "Slowly repair itself");
+        add("modifier.tinkersmossymodifier.auto_repair.flavor", "Slowly repairs itself");
 
         ModRegistries.ITEMS.getEntries().stream().map(RegistryObject::get)
             .forEach(item -> addItem(() -> item, StringUtils.capitaliseAllWords(item.getDescriptionId()
