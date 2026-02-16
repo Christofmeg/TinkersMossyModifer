@@ -5,7 +5,6 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -28,7 +27,7 @@ public class ModRegistries {
     public static RegistryObject<CreativeModeTab> ITEM_TAB_GROUP = CREATIVE_TABS.register(
             TinkersMossyModifier.MOD_ID + ".items",
             () -> CreativeModeTab.builder()
-                    .title(Component.translatable("itemGroup." + TinkersMossyModifier.MODID + ".items"))
+                    .title(Component.translatable("itemGroup." + TinkersMossyModifier.MOD_ID + ".items"))
                     .icon(() -> BALL_OF_MOSS.get().getDefaultInstance())
                     .displayItems((itemDisplayParameters, output) -> output.accept(BALL_OF_MOSS.get()))
                     .withTabsBefore(TinkerWorld.tabWorld.getId())
