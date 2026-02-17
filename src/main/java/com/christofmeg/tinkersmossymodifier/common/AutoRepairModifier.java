@@ -28,7 +28,8 @@ public class AutoRepairModifier extends Modifier implements InventoryTickModifie
                 if (!iToolStackView.isUnbreakable() && stack.isDamageableItem() && iToolStackView.getDamage() > 0) {
                     int mossyLevel = iToolStackView.getModifierLevel(ModRegistries.AUTO_REPAIR_MODIFIER.get());
                     int durabilityUsed = iToolStackView.getDamage();
-                    int durabilityRepaired = (2 + mossyLevel);
+                    boolean sunny = level.canSeeSky(livingEntity.blockPosition().above()) && !level.getLevelData().isRaining();
+                    int durabilityRepaired = sunny ? (2 + mossyLevel) * 2 : (2 + mossyLevel);
                     if (durabilityRepaired > durabilityUsed) {
                         iToolStackView.setDamage(0);
                     } else {

@@ -18,6 +18,8 @@ public class ModLanguageProvider extends LanguageProvider {
         add("modifier.tinkersmossymodifier.auto_repair", "Auto Repair");
         add("modifier.tinkersmossymodifier.auto_repair.flavor", "Slowly repairs itself");
 
+        add("itemGroup." + TinkersMossyModifier.MOD_ID + ".items", "Tinkers Mossy Modifier");
+
         ModRegistries.ITEMS.getEntries().stream().map(RegistryObject::get)
             .forEach(item -> addItem(() -> item, StringUtils.capitaliseAllWords(item.getDescriptionId()
                     .replace("item." + TinkersMossyModifier.MOD_ID + ".", "")

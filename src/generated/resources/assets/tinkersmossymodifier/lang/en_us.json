@@ -1,5 +1,6 @@
 {
   "item.tinkersmossymodifier.ball_of_moss": "Ball Of Moss",
+  "itemGroup.tinkersmossymodifier.items": "Tinkers Mossy Modifier",
   "modifier.tinkersmossymodifier.auto_repair": "Auto Repair",
   "modifier.tinkersmossymodifier.auto_repair.flavor": "Slowly repairs itself"
 }

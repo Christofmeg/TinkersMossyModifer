@@ -22,4 +22,10 @@ public class TinkersMossyModifier {
         ModRegistries.init(bus);
     }
 
+    //TODO continue texture cleanup
+    //TODO make config for sunny/rainy
+    //TODO make config for how often items repair
+    //TODO make config for how much items repair each time
+    //TODO make config to also drain EXP
+
 }
