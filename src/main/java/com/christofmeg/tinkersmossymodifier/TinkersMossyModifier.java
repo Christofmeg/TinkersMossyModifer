@@ -1,11 +1,10 @@
 package com.christofmeg.tinkersmossymodifier;
 
 import com.christofmeg.tinkersmossymodifier.common.ModRegistries;
-import com.christofmeg.tinkersmossymodifier.common.config.Config;
+import com.christofmeg.tinkersmossymodifier.common.config.ModConfig;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @SuppressWarnings("removal")
@@ -23,7 +22,7 @@ public class TinkersMossyModifier {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         ModRegistries.init(bus);
 
-        context.registerConfig(ModConfig.Type.COMMON, Config.COMMON_CONFIG);
+        context.registerConfig(net.minecraftforge.fml.config.ModConfig.Type.COMMON, ModConfig.COMMON_CONFIG);
     }
 
     //TODO continue texture cleanup
