@@ -16,6 +16,7 @@ import slimeknights.tconstruct.world.TinkerWorld;
 
 import javax.annotation.Nonnull;
 
+@SuppressWarnings("unused")
 public class ModRegistries {
 
     protected static ModifierDeferredRegister MODIFIERS_REGISTRY = ModifierDeferredRegister.create(TinkersMossyModifier.MOD_ID);

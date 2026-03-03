@@ -26,5 +26,15 @@ public class TinkersMossyModifier {
     }
 
     //TODO continue texture cleanup
+    //TODO rework mod description
+
+    /*
+    ❌ Staff
+    ✅ Pickaxe, Pickadze, Mattock, Hand Axe, Kama, Dagger, Sword
+    ? Sledge Hammer, Vein Hammer, Excavator, Broad Axe, Scythe, Cleaver, Crossbow, Longbow, Fishing Rod
+    ? Javelin, Melting Pan, Warpick, Swasher, Travelers Goggles, Travelers Vest, Travelers Pants
+    ? Travelers Boots, Travelers Shield, Plate Helmet, Plate Chestplate, Plate Leggings, Plate Boots
+    ? Plate Shield, Slimeskull, Slimelytra, Slimeshell, Slimeboots
+     */
 
 }

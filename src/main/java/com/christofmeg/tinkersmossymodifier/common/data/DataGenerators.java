@@ -9,8 +9,6 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import slimeknights.tconstruct.tools.data.material.MaterialDataProvider;
-import slimeknights.tconstruct.tools.data.sprite.TinkerMaterialSpriteProvider;
 
 @Mod.EventBusSubscriber(modid = TinkersMossyModifier.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DataGenerators {
@@ -20,8 +18,6 @@ public class DataGenerators {
         DataGenerator gen = event.getGenerator();
         PackOutput output = gen.getPackOutput();
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
-        TinkerMaterialSpriteProvider materialSprites = new TinkerMaterialSpriteProvider();
-        MaterialDataProvider materials = new MaterialDataProvider(output);
 
         boolean server = event.includeServer();
         gen.addProvider(server, new ModRecipeProvider(output));
