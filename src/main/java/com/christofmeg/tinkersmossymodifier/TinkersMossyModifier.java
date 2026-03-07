@@ -27,11 +27,10 @@ public class TinkersMossyModifier {
     //TODO rework mod description
 
     /*
-    ✅ Pickaxe, Pickadze, Mattock, Hand Axe, Kama, Dagger, Sword, Melting Pan, Staff, Sledge Hammer, Vein Hammer, Excavator, Broad Axe, Scythe
-    ? Cleaver, Crossbow, Longbow, Fishing Rod
-    ? Javelin, Warpick, Swasher, Travelers Goggles, Travelers Vest, Travelers Pants
-    ? Travelers Boots, Travelers Shield, Plate Helmet, Plate Chestplate, Plate Leggings, Plate Boots
-    ? Plate Shield, Slimeskull, Slimelytra, Slimeshell, Slimeboots, Flint and brick
+     Crossbow, Longbow, Fishing Rod
+     Javelin, Warpick, Swasher, Travelers Goggles, Travelers Vest, Travelers Pants
+     Travelers Boots, Travelers Shield, Plate Helmet, Plate Chestplate, Plate Leggings, Plate Boots
+     Plate Shield, Slimeskull, Slimelytra, Slimeshell, Slimeboots, Flint and brick
      */
 
 }
