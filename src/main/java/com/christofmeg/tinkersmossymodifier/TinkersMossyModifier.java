@@ -13,7 +13,6 @@ public class TinkersMossyModifier {
 
     public static final String MOD_ID = "tinkersmossymodifier";
     public static final String MOD_NAME = "Tinkers Mossy Modifer";
-
     public static ResourceLocation rl(String name) {
         return new ResourceLocation(MOD_ID, name);
     }
@@ -21,7 +20,6 @@ public class TinkersMossyModifier {
     public TinkersMossyModifier(FMLJavaModLoadingContext context) {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         ModRegistries.init(bus);
-
         context.registerConfig(net.minecraftforge.fml.config.ModConfig.Type.COMMON, ModConfig.COMMON_CONFIG);
     }
 
@@ -29,12 +27,11 @@ public class TinkersMossyModifier {
     //TODO rework mod description
 
     /*
-    ❌ Staff
-    ✅ Pickaxe, Pickadze, Mattock, Hand Axe, Kama, Dagger, Sword
-    ? Sledge Hammer, Vein Hammer, Excavator, Broad Axe, Scythe, Cleaver, Crossbow, Longbow, Fishing Rod
-    ? Javelin, Melting Pan, Warpick, Swasher, Travelers Goggles, Travelers Vest, Travelers Pants
+    ✅ Pickaxe, Pickadze, Mattock, Hand Axe, Kama, Dagger, Sword, Melting Pan, Staff, Sledge Hammer, Vein Hammer, Excavator, Broad Axe, Scythe
+    ? Cleaver, Crossbow, Longbow, Fishing Rod
+    ? Javelin, Warpick, Swasher, Travelers Goggles, Travelers Vest, Travelers Pants
     ? Travelers Boots, Travelers Shield, Plate Helmet, Plate Chestplate, Plate Leggings, Plate Boots
-    ? Plate Shield, Slimeskull, Slimelytra, Slimeshell, Slimeboots
+    ? Plate Shield, Slimeskull, Slimelytra, Slimeshell, Slimeboots, Flint and brick
      */
 
 }
