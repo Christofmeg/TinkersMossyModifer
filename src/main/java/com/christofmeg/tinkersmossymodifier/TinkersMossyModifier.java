@@ -24,7 +24,6 @@ public class TinkersMossyModifier {
     }
 
     //TODO continue texture cleanup
-    //TODO rework mod description
 
     /*
      Crossbow, Longbow, Fishing Rod
