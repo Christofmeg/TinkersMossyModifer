@@ -27,7 +27,7 @@ public class TinkersMossyModifier {
 
     /*
      Crossbow, Longbow, Fishing Rod
-     Javelin, Warpick, Swasher, Travelers Goggles, Travelers Vest, Travelers Pants
+     Javelin, Swasher, Travelers Goggles, Travelers Vest, Travelers Pants
      Travelers Boots, Travelers Shield, Plate Helmet, Plate Chestplate, Plate Leggings, Plate Boots
      Plate Shield, Slimeskull, Slimelytra, Slimeshell, Slimeboots, Flint and brick
      */
