@@ -16,7 +16,8 @@ public class ModLanguageProvider extends LanguageProvider {
     @Override
     protected void addTranslations() {
         add("modifier.tinkersmossymodifier.auto_repair", "Auto Repair");
-        add("modifier.tinkersmossymodifier.auto_repair.flavor", "Slowly repairs itself");
+        add("modifier.tinkersmossymodifier.auto_repair.description", "Slowly repairs itself");
+        add("modifier.tinkersmossymodifier.auto_repair.flavor", "Repairs like the old days.");
 
         add("itemGroup." + TinkersMossyModifier.MOD_ID + ".items", "Tinkers Mossy Modifier");
 

@@ -26,10 +26,10 @@ public class TinkersMossyModifier {
     //TODO continue texture cleanup
 
     /*
-     Longbow, Fishing Rod
-     Javelin, Swasher, Travelers Goggles, Travelers Vest, Travelers Pants
-     Travelers Boots, Travelers Shield, Plate Helmet, Plate Chestplate, Plate Leggings, Plate Boots
-     Plate Shield, Slimeskull, Slimelytra, Slimeshell, Slimeboots, Flint and brick
+     Travelers Vest, Travelers Pants, Travelers Boots, Travelers Shield,
+     Plate Helmet, Plate Chestplate, Plate Leggings, Plate Boots, Plate Shield,
+     Slimeskull, Slimelytra, Slimeshell, Slimeboots,
+     Flint and brick
      */
 
 }

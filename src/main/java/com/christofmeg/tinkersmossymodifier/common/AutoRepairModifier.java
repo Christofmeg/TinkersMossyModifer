@@ -27,7 +27,7 @@ public class AutoRepairModifier extends Modifier implements InventoryTickModifie
                                 @NotNull LivingEntity livingEntity, int itemSlot, boolean isSelected, boolean isCorrectSlot, @NotNull ItemStack stack) {
         if (!level.isClientSide()) {
             if (level.getGameTime() % ModConfig.REPAIR_EVERY_X_GAMETICK.get() == 0) {
-                if (!iToolStackView.isUnbreakable() && stack.isDamageableItem() && iToolStackView.getDamage() > 0) {
+                if (!iToolStackView.isUnbreakable() && stack.isDamageableItem() && iToolStackView.getDamage() > 0 && !iToolStackView.isBroken()) {
                     if (ModConfig.ENABLE_EXPERIENCE_DRAIN.get()) {
                         if (livingEntity instanceof Player player && player.getExperienceReward() > 0) {
                             repair(iToolStackView, level, player);
