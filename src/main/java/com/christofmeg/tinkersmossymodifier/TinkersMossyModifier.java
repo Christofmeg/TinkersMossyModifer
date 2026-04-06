@@ -23,12 +23,4 @@ public class TinkersMossyModifier {
         context.registerConfig(net.minecraftforge.fml.config.ModConfig.Type.COMMON, ModConfig.COMMON_CONFIG);
     }
 
-    //TODO continue texture cleanup
-
-    /*
-     Plate Helmet, Plate Chestplate, Plate Leggings, Plate Boots, Plate Shield,
-     Slimeskull, Slimelytra, Slimeshell, Slimeboots,
-     Flint and brick
-     */
-
 }
